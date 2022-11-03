@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		F4E937462913808300287432 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E937452913808300287432 /* AppDelegate.swift */; };
 		F4E937482913808300287432 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E937472913808300287432 /* SceneDelegate.swift */; };
-		F4E9374A2913808300287432 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E937492913808300287432 /* ViewController.swift */; };
 		F4E9374D2913808300287432 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E9374B2913808300287432 /* Main.storyboard */; };
 		F4E9374F2913808800287432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4E9374E2913808800287432 /* Assets.xcassets */; };
 		F4E937522913808800287432 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E937502913808800287432 /* LaunchScreen.storyboard */; };
+		F4E937662913C06B00287432 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E937652913C06B00287432 /* LoginViewController.swift */; };
+		F4E937682913C15D00287432 /* UserNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E937672913C15D00287432 /* UserNameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F4E937422913808300287432 /* LoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4E937452913808300287432 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4E937472913808300287432 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F4E937492913808300287432 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F4E9374C2913808300287432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4E9374E2913808800287432 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4E937512913808800287432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4E937532913808800287432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E937652913C06B00287432 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F4E937672913C15D00287432 /* UserNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				F4E937452913808300287432 /* AppDelegate.swift */,
 				F4E937472913808300287432 /* SceneDelegate.swift */,
-				F4E937492913808300287432 /* ViewController.swift */,
 				F4E9374B2913808300287432 /* Main.storyboard */,
+				F4E937672913C15D00287432 /* UserNameViewController.swift */,
+				F4E937652913C06B00287432 /* LoginViewController.swift */,
 				F4E9374E2913808800287432 /* Assets.xcassets */,
 				F4E937502913808800287432 /* LaunchScreen.storyboard */,
 				F4E937532913808800287432 /* Info.plist */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4E9374A2913808300287432 /* ViewController.swift in Sources */,
 				F4E937462913808300287432 /* AppDelegate.swift in Sources */,
+				F4E937662913C06B00287432 /* LoginViewController.swift in Sources */,
+				F4E937682913C15D00287432 /* UserNameViewController.swift in Sources */,
 				F4E937482913808300287432 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,7 +308,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,7 +336,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
