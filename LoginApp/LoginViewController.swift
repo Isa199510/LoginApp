@@ -17,9 +17,11 @@ class LoginViewController: UIViewController {
     @IBOutlet var passwordTextField: UITextField!
     
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        if let _ = touches.first {
+            view.endEditing(true)
+        }
+        super.touchesBegan(touches, with: event)
     }
     
 
